@@ -2,9 +2,9 @@
 
 ### Цель - изучене систем автоматизации развёртывания и управления приложениями на примере Docker
 
-Установлю **docker**: 
+Убедимся что наша система обновлена и установим **docker**: 
 ```
-$ sudo apt update && sudo apt install -y curl
+$ sudo pacman -Syu && sudo pacman -S docker
 $ curl -fsSL https://get.docker.com/ | sudo sh
 ```
 
