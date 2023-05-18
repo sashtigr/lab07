@@ -5,7 +5,6 @@
 Убедимся что наша система обновлена и установим **docker**: 
 ```
 $ sudo pacman -Syu && sudo pacman -S docker
-$ curl -fsSL https://get.docker.com/ | sudo sh
 ```
 
 Билд докера:
